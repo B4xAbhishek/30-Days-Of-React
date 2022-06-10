@@ -1953,7 +1953,7 @@ _Object.values_:To get values of an object as an array
 
 ```js
 const values = Object.values(copyPerson)
-console.log(values)
+console.log(values) 
 ```
 
 ##### Getting object keys and values using Object.entries()
@@ -1962,7 +1962,7 @@ _Object.entries_:To get the keys and values in an array
 
 ```js
 const entries = Object.entries(copyPerson)
-console.log(entries)
+console.log(entries) //(8) [Array(2), Array(2), Array(2), Array(2), Array(2), Array(2), Array(2), Array(2)]
 ```
 
 ##### Checking properties using hasOwnProperty()
